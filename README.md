@@ -1,1 +1,1 @@
-# Enron-Classfication
+# Enron Corpus Exploratory Analysis
