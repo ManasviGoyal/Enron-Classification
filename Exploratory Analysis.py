@@ -35,7 +35,7 @@ def split_email_addresses(line):
 def preprocess_folder(data):
     folders = []
     for item in data:
-        if item is None or item is '':
+        if item == None or item == '':
             folders.append(np.nan)
         else:
             item = item.split("\\")[-1]
